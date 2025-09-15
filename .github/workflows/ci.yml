@@ -38,5 +38,5 @@ jobs:
       - name: Run all tests
         uses: matlab-actions/run-build@v2
         with:
-          task: test(RunOnlyImpactedTests=1)
+          tasks: test(RunOnlyImpactedTests=1)
           build-options: -verbosity 3
